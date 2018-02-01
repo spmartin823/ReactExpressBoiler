@@ -1,9 +1,7 @@
 import React from 'react';
 
-// TODO: make this a loading icon
-
 const Loading = () => (
-  <div className="txn">
+  <div className="info">
     Loading...
   </div>
 );

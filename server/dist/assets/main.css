@@ -1,3 +1,5 @@
+/*this creates a mInteger type */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
@@ -14,7 +16,7 @@ h1 {
   flex-flow: row;
 }
 
-.txn {
+.info {
   width: 80%;
   margin: 20px;
 }
@@ -24,7 +26,7 @@ h1 {
   margin: 10px;
 }
 
-.txn-table {
+.info-table {
   display: flex;
   flex-flow: column nowrap;
   font-size: .7rem;
@@ -33,31 +35,31 @@ h1 {
   flex: 1 1 auto;
 }
 
-.txn-header {
+.info-header {
   display: none;
   font-weight: 700;
   background-color: #f2f2f2;
 }
 
-.txn-row {
+.info-row {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
 }
 
-.txn-row:nth-of-type(even) {
+.info-row:nth-of-type(even) {
   background-color: #f2f2f2;
 }
 
-.txn-row:nth-of-type(odd) {
+.info-row:nth-of-type(odd) {
   background-color: #ffffff;
 }
 
-.txn-row:hover {
+.info-row:hover {
   color: #00a07b;
 }
 
-.txn-data {
+.info-data {
   display: flex;
   flex-flow: row nowrap;
   flex-grow: 1;
@@ -71,7 +73,7 @@ h1 {
   border-bottom: 1px solid #d0d0d0;
 }
 
-.half-txn-data {
+.half-info-data {
   display: flex;
   flex-flow: row nowrap;
   flex-grow: 1;
